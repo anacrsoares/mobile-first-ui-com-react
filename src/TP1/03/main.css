@@ -3,3 +3,30 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.item-1 {
+  flex-grow: 1;
+}
+
+p,
+h1,
+h2 {
+  margin: 10px;
+  text-align: justify;
+}
+
+.solucao {
+  margin: 30px;
+  padding: 5px;
+  border: 1px solid rgb(250, 128, 114);
+  box-shadow: 1px 1px 1px rgba(255, 127, 113, 0.5);
+}
+
+.solucao ul {
+  display: flex;
+}
+
+.solucao li {
+  padding: 0 10px 0 10px;
+  list-style: none;
+}
