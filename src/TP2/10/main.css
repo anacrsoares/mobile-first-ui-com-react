@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.border {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.pergunta {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+p {
+  padding: 10px;
+}
+
+li {
+  margin-left: 10px;
+  list-style: none;
+}
+
+.resposta {
+  margin-top: 10px;
+  background-color: antiquewhite;
+}
+
+@media print {
+  body {
+    background-color: transparent;
+    -webkit-print-color-adjust: exact;
+  }
+  .resposta {
+    display: none;
+  }
+
+  .border {
+    background-color: aqua;
+  }
+}
+
+@media (pointer: fine) {
+  .opcoes li {
+    cursor: pointer;
+  }
+}

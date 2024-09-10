@@ -1,0 +1,14 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .container-pai {
+  width: 200px;
+  border: 2px dotted red;
+} */
+
+.image-responsive {
+  width: 100vw;
+}

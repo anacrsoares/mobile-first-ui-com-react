@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .container-pai {
+  height: 80vh;
+  width: auto;
+  border: 2px dotted red;
+} */
+
+.image-responsive {
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}

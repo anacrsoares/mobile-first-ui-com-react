@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.content h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.content h2 {
+  font-weight: 600;
+  margin-top: 30px;
+  font-size: 1.1rem;
+}
+
+.content p {
+  font-size: 1rem;
+  margin: 10px;
+  text-indent: 15px;
+  text-align: justify;
+}
+
+.citation {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  align-items: flex-end;
+  font-style: italic;
+  color: black;
+}
+
+.citation p {
+  font-size: 0.8rem;
+  align-items: end;
+  width: 80vw;
+}
+
+a {
+  display: block;
+}
