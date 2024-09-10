@@ -4,7 +4,7 @@ name: Deploy static content to Pages
 on:
   # Executa o workflow quando há push no branch principal
   push:
-    branches: ['master']
+    branches: ["master"]
 
   # Permite rodar o workflow manualmente
   workflow_dispatch:
@@ -17,7 +17,7 @@ permissions:
 
 # Permitir um deploy por vez
 concurrency:
-  group: 'pages'
+  group: "pages"
   cancel-in-progress: true
 
 jobs:
@@ -30,12 +30,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
+
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: "npm"
 
       - name: Install dependencies
         run: npm ci
@@ -50,7 +50,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Enviar a pasta dist
-          path: './dist'
+          path: "./dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
