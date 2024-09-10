@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://anacrsoares.github.io/mobile-first-ui-com-react/src/TP2/15/index.html",
+  "homepage": "https://anacrsoares.github.io/mobile-first-ui-com-react/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
