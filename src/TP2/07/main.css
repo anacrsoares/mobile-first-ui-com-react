@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.responsive-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.responsive-img {
+  width: 100vw;
+  height: auto;
+}
+
+@media screen and (min-width: 650px) {
+  .responsive-layout {
+    flex-direction: row;
+  }
+
+  .responsive-img {
+    width: 50vw;
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .responsive-text {
+    text-align: justify;
+    margin: 20px;
+    font-size: 1.4rem;
+  }
+}

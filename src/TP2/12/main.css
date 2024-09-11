@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-menu {
+  display: flex;
+  height: fit-content;
+  width: fit-content;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.tooltip {
+  position: relative;
+  padding: 10px;
+  color: #fff;
+}
+
+@media (pointer: fine) {
+  .tooltip-label {
+    visibility: hidden;
+    opacity: 0;
+    background-color: #000000e1;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+    transition: opacity 0.5s ease;
+  }
+
+  .tooltip:hover .tooltip-label {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltip:hover {
+    cursor: pointer;
+  }
+}
