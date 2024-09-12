@@ -1,21 +1,21 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import React from "react";
-import Page01 from "./TP2/01";
-import Page02 from "./TP2/02";
-import Page03 from "./TP2/03";
-import Page04 from "./TP2/04";
-import Page05 from "./TP2/05";
-import Page06 from "./TP2/06";
-import Page07 from "./TP2/07";
-import Page08 from "./TP2/08";
-import Page09 from "./TP2/09";
-import Page10 from "./TP2/10";
-import Page11 from "./TP2/11";
-import Page12 from "./TP2/12";
-import Page13 from "./TP2/13";
-import Page14 from "./TP2/14";
-import Page15 from "./TP2/15";
-import Page16 from "./TP2/16";
+import Page01 from "./TP2/01/index.html";
+import Page02 from "./TP2/02/index.html";
+import Page03 from "./TP2/03/index.html";
+import Page04 from "./TP2/04/index.html";
+import Page05 from "./TP2/05/index.html";
+import Page06 from "./TP2/06/index.html";
+import Page07 from "./TP2/07/index.html";
+import Page08 from "./TP2/08/index.html";
+import Page09 from "./TP2/09/index.html";
+import Page10 from "./TP2/10/index.html";
+import Page11 from "./TP2/11/index.html";
+import Page12 from "./TP2/12/index.html";
+import Page13 from "./TP2/13/index.html";
+import Page14 from "./TP2/14/index.html";
+import Page15 from "./TP2/15/index.html";
+import Page16 from "./TP2/16/index.html";
 
 function App() {
   return (
