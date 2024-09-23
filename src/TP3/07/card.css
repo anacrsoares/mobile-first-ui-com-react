@@ -1,0 +1,80 @@
+/* Estilos base - Mobile First */
+.card-container {
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+  margin: 1rem;
+  gap: 1rem;
+}
+
+.card-container:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  transition: ease 0.3s;
+}
+.card-image {
+  height: 100%;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 8px 0 0 8px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.card-description {
+  font-size: 0.8rem;
+  margin: 8px 0;
+  padding: 0.5rem;
+}
+
+.card-footer {
+  font-size: 0.3rem;
+  color: gray;
+  margin-top: 12px;
+  padding: 0.5rem;
+}
+
+/* Estilos responsivos */
+@media (min-width: 540px) {
+  .card-container {
+    /* height: 300px; */
+    /* width: 600px; */
+  }
+
+  .card-title {
+    font-size: 1.8rem;
+  }
+
+  .card-description {
+    font-size: 1rem;
+  }
+
+  .card-image {
+    width: 190px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    height: 300px;
+    width: 600px;
+  }
+
+  .card-title {
+    font-size: 2rem;
+  }
+
+  .card-description {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página com Menu Responsivo Lateral</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="enunciado">
+      <h1>Tarefa 2 - Página com Menu Responsivo Lateral</h1>
+      <p>
+        Utilizando a ferramenta CodeSandbox e o template HTML, CSS e JS, crie
+        uma página simples contendo um menu com, ao menos, 8 elementos: uma
+        imagem com o logo da página, um ícone para o usuário interagir com o meu
+        e outros elementos como opções do mesmo, por exemplo: Perfil, Postagens,
+        Amigos, Fotos, Vídeos e Configurações.
+      </p>
+      <p>
+        Implemente o que for necessário para que o menu da página fique
+        responsivo.
+      </p>
+      <p>
+        Quando não houver espaço suficiente, o menu deve ser no estilo
+        expande/colapsa, porém aparecendo na lateral direita da página.
+      </p>
+      <p>
+        Quando houver espaço suficiente para que todos os elementos do menu
+        estejam visíveis para o usuário, o menu deve ser do tipo horizontal, no
+        topo da página.
+      </p>
+      <ul>
+        <li>Utilize a tag própria para uso de imagens na página HTML.</li>
+        <li>Atribua à imagem uma classe referência em CSS.</li>
+        <li>Não implemente códigos CSS no arquivo HTML.</li>
+        <li>Pense Mobile-First.</li>
+      </ul>
+    </div>
+
+    <div class="solucao">
+      <!-- Cabeçalho com o menu -->
+      <header>
+        <div class="navbar">
+          <!-- Ícone de Menu (mobile) -->
+          <div class="menu-icon" id="menu-icon">&#9776;</div>
+
+          <!-- Logo -->
+          <img src="../assets/logo.png" alt="Logo" class="logo" />
+
+          <!-- Links do Menu (lateral no mobile) -->
+          <ul class="nav-links" id="nav-links">
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#postagens">Postagens</a></li>
+            <li><a href="#amigos">Amigos</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#videos">Vídeos</a></li>
+            <li><a href="#configuracoes">Configurações</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#ajuda">Ajuda</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <h1>Bem-vindo à Página</h1>
+        <p>Esta é uma página simples com um menu lateral responsivo.</p>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
