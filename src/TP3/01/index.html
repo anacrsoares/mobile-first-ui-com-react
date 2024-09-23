@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página com Menu Responsivo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="enunciado">
+      <h1>Tarefa 1 - Página com Menu Responsivo</h1>
+      <p>
+        Utilizando a ferramenta CodeSandbox e o template HTML, CSS e JS, crie
+        uma página simples contendo um menu com, ao menos, cinco elementos: uma
+        imagem com o logo da página, um ícone para o usuário interagir com o meu
+        e outros elementos como opções do mesmo, por exemplo: Produtos, Serviços
+        e Contato. fique responsivo.
+      </p>
+      <p>Implemente o que for necessário para que o menu da página</p>
+      <p>
+        Quando não houver espaço suficiente, o menu deve ser no estilo
+        expande/colapsa no topo da página. Quando houver espaço suficiente para
+        que todos os elementos do menu estejam visíveis para o usuário, o menu
+        deve ser do tipo horizontal. Também no topo da página.
+      </p>
+      <ul>
+        <li>Utilize a tag própria para uso de imagens na página HTML.</li>
+        <li>Atribua à imagem uma classe referência em CSS.</li>
+        <li>Não implemente códigos CSS no arquivo HTML.</li>
+        <li>Pense Mobile-First.</li>
+      </ul>
+    </div>
+
+    <div class="solucao">
+      <!-- Cabeçalho com o menu -->
+      <header>
+        <nav class="navbar">
+          <div class="menu">
+            <!-- Ícone de Menu (mobile) -->
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+
+            <!-- Links do Menu -->
+            <ul class="nav-links" id="nav-links">
+              <li><a href="#produtos">Produtos</a></li>
+              <li><a href="#servicos">Serviços</a></li>
+              <li><a href="#contato">Contato</a></li>
+              <li><a href="#sobre">Sobre</a></li>
+              <li><a href="#blog">Blog</a></li>
+            </ul>
+          </div>
+
+          <!-- Logo -->
+          <img src="../assets/logo.png" alt="Logo" class="logo" />
+        </nav>
+      </header>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

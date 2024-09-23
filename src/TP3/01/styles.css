@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.enunciado {
+  margin: 10px;
+}
+
+.enunciado h1 {
+  margin-bottom: 10px;
+}
+
+.enunciado p {
+  font-size: 1.3rem;
+  margin: 10px;
+}
+
+.enunciado ul {
+  margin: 20px;
+}
+
+.solucao {
+  border: 1px solid salmon;
+  margin: 10px 20px;
+}
+
+.solucao ul {
+  list-style: none;
+}
+
+/* Dispositivos mobile */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  display: none;
+  gap: 20px;
+  font-size: clamp(0.5rem, 3vw, 2.2rem);
+  width: 100%;
+  text-align: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
+  background-color: #444;
+  border-bottom: 1px solid #555;
+}
+
+.nav-links a:hover {
+  background-color: #555;
+}
+
+.logo {
+  width: 50px;
+  visibility: none;
+}
+
+.menu-icon {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+/* Estilos para telas maiores (desktop) */
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: transparent;
+    justify-content: flex-start;
+  }
+
+  .navbar {
+    justify-content: space-between;
+  }
+}

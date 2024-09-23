@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawer navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="enunciado">
+      <h1>Tarefa 3 - Página com Menu Responsivo do tipo Drawer navigation</h1>
+      <p>
+        Utilizando a ferramenta CodeSandbox e o template HTML, CSS e JS, crie
+        uma página simples contendo um menu com, ao menos, 8 elementos: uma
+        imagem com o logo da página, um ícone para o usuário interagir com o meu
+        e outros elementos como opções do mesmo, por exemplo: Perfil, Postagens,
+        Amigos, Fotos, Vídeos e Configurações.
+      </p>
+      <p>
+        Implemente o que for necessário para que o menu da página fique
+        responsivo.
+      </p>
+      <p>
+        Quando não houver espaço suficiente, o menu deve ser no estilo
+        expande/colapsa, no estilo vertical, aparecendo na lateral esquerda da
+        página.
+      </p>
+      <p>
+        Quando houver espaço suficiente para que todos os elementos do menu
+        estejam visíveis para o usuário, o menu deve ser do tipo vertical, no
+        lado esquerdo da página.
+      </p>
+      <ul>
+        <li>Utilize a tag própria para uso de imagens na página HTML.</li>
+        <li>Atribua à imagem uma classe referência em CSS.</li>
+        <li>Não implemente códigos CSS no arquivo HTML.</li>
+        <li>Pense Mobile-First.</li>
+      </ul>
+    </div>
+
+    <div class="solucao">
+      <!-- Cabeçalho com o menu -->
+      <header>
+        <div class="logo-container">
+          <img src="../assets/logo.png" alt="Page Logo" class="logo" />
+          <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+        </div>
+        <nav class="drawer-menu">
+          <ul>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Postagens</a></li>
+            <li><a href="#">Amigos</a></li>
+            <li><a href="#">Fotos</a></li>
+            <li><a href="#">Vídeos</a></li>
+            <li><a href="#">Configurações</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <h1>Conteúdo Principal</h1>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
